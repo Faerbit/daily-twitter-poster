@@ -4,12 +4,12 @@ import os
 import data
 
 API_KEY=os.environ["API_KEY"]
-API_SECRET=os.eviron["API_SECRET"]
+API_SECRET=os.environ["API_SECRET"]
 
 ACCESS_TOKEN=os.environ["ACCESS_TOKEN"]
 ACCESS_TOKEN_SECRET=os.environ["ACCESS_TOKEN_SECRET"]
 
-twitter = Twython (API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRECT)
+twitter = Twython (API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 twitter.verify_credentials()
 
 today = date.today()
