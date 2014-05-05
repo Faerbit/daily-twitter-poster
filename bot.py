@@ -20,8 +20,8 @@ message = message + data.data[today.month-1][today.day-1] + "."
 
 if len(message) >140:
     message1=message[:135] + "(1/2)"
-    twitter.update_status(message1)
+    twitter.update_status(status=message1)
     message2=message[136:275] + "(2/2)"
-    twitter.update_status(message2)
+    twitter.update_status(status=message2)
 else:
-    twitter.update_status(message)
+    twitter.update_status(status=message)
