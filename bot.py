@@ -1,0 +1,27 @@
+from twython import Twython
+from datetime import date
+import os
+import data
+
+API_KEY=os.environ["API_KEY"]
+API_SECRET=os.eviron["API_SECRET"]
+
+ACCESS_TOKEN=os.environ["ACCESS_TOKEN"]
+ACCESS_TOKEN_SECRET=os.environ["ACCESS_TOKEN_SECRET"]
+
+twitter = Twython (API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRECT)
+twitter.verify_credentials()
+
+today = date.today()
+
+message = "Heute ist "
+
+message = message + data.data[today.month][today.day]
+
+if len(message) >140:
+    message1=message[:135] + "(1/2)"
+    twitter.update_status(message1)
+    message2=message[136:275] + "(2/2)"
+    twitter.update_status(message2)
+else:
+    twitter.update_status(message)
