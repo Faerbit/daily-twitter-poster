@@ -14,9 +14,9 @@ twitter.verify_credentials()
 
 today = date.today()
 
-message = "Heute ist der Tag"
+message = "Heute ist der Tag "
 
-message = message + data.data[today.month-1][today.day-1]
+message = message + data.data[today.month-1][today.day-1] + "."
 
 if len(message) >140:
     message1=message[:135] + "(1/2)"
