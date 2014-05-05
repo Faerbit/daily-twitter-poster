@@ -14,7 +14,7 @@ twitter.verify_credentials()
 
 today = date.today()
 
-message = "Heute ist "
+message = "Heute ist der Tag"
 
 message = message + data.data[today.month][today.day]
 
