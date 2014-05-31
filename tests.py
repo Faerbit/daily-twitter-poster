@@ -23,7 +23,7 @@ class SplitMessageTests(unittest.TestCase):
             " enough we need even more words. Adding a few more words to make"
             " it more distinct.")
         test_message1 = test_message[:133] + "(1/2)"
-        test_message2 = test_message[:134] + "(2/2)"
+        test_message2 = test_message[134:] + "(2/2)"
         self.assertEqual([test_message1, test_message2], split_message(test_message))
 
 if __name__ == "__main__":
