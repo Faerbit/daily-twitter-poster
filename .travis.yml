@@ -4,3 +4,6 @@ python:
   - "3.3"
 # command to run tests
 script: python tests.py
+
+notifications:
+    email: false
