@@ -1,5 +1,6 @@
-daily-twitter-poster
-====================
+#daily-twitter-poster
+[![Build Status](https://travis-ci.org/Faerbit/daily-twitter-poster.png?branch=master)](https://travis-ci.org/Faerbit/daily-twitter-poster)
+
 
 Posts daily a predetermined message on twitter.
 
