@@ -25,11 +25,22 @@ def main():
 
 def split_message(message):
     messages = []
-    if len(message) >140:
-        message1=message[:135] + "(1/2)"
-        messages.append(message1)
-        message2=message[136:275] + "(2/2)"
-        messages.append(message2)
+    if len(message) > 140:
+        last = 0
+        i = 0
+        while (i*134 < len(message)):
+            i += 1
+            start = last
+            # Don't cut the last word of the last message out
+            if ((len(message) - i*134) > 0):
+                last = message[:(i*134)].rfind(" ")
+            else:
+                last = len(message)
+            messages.append(message[start:last])
+            # Skip space
+            last += 1
+        for (i, string) in enumerate(messages):
+            messages[i] += " (" + str(i+1) + "/" + str(len(messages)) + ")"
     else:
         messages.append(message)
     return messages
