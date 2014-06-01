@@ -27,13 +27,12 @@ def split_message(message):
     messages = []
     if len(message) > 140:
         last = 0
-        i = 0
-        while (i*134 < len(message)):
-            i += 1
+        # Don't cut the last message
+        for i in range(134, len(message)+134, 134):
             start = last
             # Don't cut the last word of the last message out
-            if ((len(message) - i*134) > 0):
-                last = message[:(i*134)].rfind(" ")
+            if ((len(message) - i) > 0):
+                last = message[:i].rfind(" ")
             else:
                 last = len(message)
             messages.append(message[start:last])
