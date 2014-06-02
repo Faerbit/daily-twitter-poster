@@ -32,7 +32,7 @@ May_de = [
     "des Spülens", #27
     "der Tür", #28
     "des Schicksals", #29
-    "des Tages", #30
+    "der Frisur", #30
     "des Bachelors", #31
 ]
 June_de = [
@@ -44,7 +44,7 @@ June_de = [
     "des Lachens", #6
     "des übermäßigen Alkoholkonsumes", #7
     "des Pinguins", #8
-    "des Muffins", #9
+    "des Kuchens", #9
     "des Klaufens", #10
     "der Couch", #11
     "der Weltmeisterschaft", #12

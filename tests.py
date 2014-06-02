@@ -11,7 +11,7 @@ class DataTests(unittest.TestCase):
         for i in data_de:
             data_.extend(i)
         duplicates = set([x for x in data_ if data_.count(x) > 1])
-        self.assertEqual(duplicates, {}, "There is duplicate data.")
+        self.assertEqual(duplicates, set(), "There is duplicate data.")
 
 class TwitterBotTests(unittest.TestCase):
 
