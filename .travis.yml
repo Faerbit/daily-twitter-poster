@@ -1,9 +1,13 @@
 language: python
 python:
-  - "3.4"
-  - "3.3"
-# command to run tests
+- '3.4'
+- '3.3'
 script: python tests.py
-
 notifications:
-    email: false
+  email: false
+env:
+  matrix:
+  - secure: Nc9gWwUTFg77quZ5mrCo5nqgIjCrxXuSsiG4ixaCRw2HuTNudbE987FTHbgvB7kWPe6UVu8KyGmkdcHCYVeAxg/zMWsSUMb+w6Jncz86MEfWQ8ztfZ4w3FwW9HEINCuD9/sJds12ykNeZ82By89HwdVASv1vkBiW/7f8+ZIuRf0=
+  - secure: R6MiXXT2KPX7YHa6uh/1jX+mV3OMvMO3D+IMeEZmN/Ao9Qnpk7SpTlf77m5A4w+luG31RrHZUCJFzxUGpNepC8PE/mSoSE42UC/RG8lljP+vnHGtyxhUA4xaMWCILn22K9yGl2of+fmf0OSkvbXlhUwlnAvBdSetng6Q9l9Yh1w=
+  - secure: LsMpwEQLQ2xanW5DqkVtS3yd7+R60YhMaYLcvcZw5t2Nml/wDgExo8jazrjQBCzmkCuQNOyPU7YLcRGjlEaCUKI3d6k6sZeVde5CRsGCRe+skjuRuZDc+orstgNoLnl2BIq14547PurXr01uD4hIYUi5ZuvVfMRsBiKr1W44mlo=
+  - secure: AdqAxe4tqTUDM6VovGGd4aJulGgG9xz2Z8c3S7KjTqsCzAFkixtiv4QV1GaPleFbYwWPb2Xwk/gy7gcJZapa7YIydtKo5SVM33mFise75kwzbDRogLjz48i0APTTcGHcm7EOks77wvemCTZ+RZqA90BhwXJhmTDl5ei9yJAYvzQ=

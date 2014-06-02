@@ -1,41 +1,41 @@
-January = []
-February = []
-March = []
-April = []
-May=[
-    "der Arbeit", 
-    "der Kartoffel",
-    "des rechteckigen Fensters",
-    "der Vier",
-    "des Datums",
-    "des Backofens",
-    "der Katze",
-    "des Käses",
-    "des Zettel auf der Toilette wechseln",
-    "des Muffins",
-    "des Wörterausdenkens",
-    "des Icons",
-    "der Nussmandelerdnusswalnusskreme",
-    "des Spülmittelkonzentrates",
-    "des Handtuches",
-    "der Induktion",
-    "der Feuerwehr",
-    "des Tages",
-    "des Messfehlers",
-    "des Käfers",
-    "der Mikrowelle",
-    "der Milch",
-    "der Unterhose",
-    "der Uhr",
-    "des Hundes",
-    "der duftenden Socken",
-    "des Spülens",
-    "der Tür",
-    "des Schicksals",
-    "des Tages",
-    "des Bachelors"
+January_de = []
+February_de = []
+March_de = []
+April_de = []
+May_de = [
+    "der Arbeit", #1
+    "der Kartoffel", #2
+    "des rechteckigen Fensters", #3
+    "der Vier", #4
+    "des Datums", #5
+    "des Backofens", #6
+    "der Katze", #7
+    "des Käses", #8
+    "des Zettel auf der Toilette wechseln", #9
+    "des Muffins", #10
+    "des Wörterausdenkens", #11
+    "des Icons", #12
+    "der Nussmandelerdnusswalnusskreme", #13
+    "des Spülmittelkonzentrates", #14
+    "des Handtuches", #15
+    "der Induktion", #16
+    "der Feuerwehr", #17
+    "des Tages", #18
+    "des Messfehlers", #19
+    "des Käfers", #20
+    "der Mikrowelle", #21
+    "der Milch", #22
+    "der Unterhose", #23
+    "der Uhr", #24
+    "des Hundes", #25
+    "der duftenden Socken", #26
+    "des Spülens", #27
+    "der Tür", #28
+    "des Schicksals", #29
+    "des Tages", #30
+    "des Bachelors", #31
 ]
-June = [
+June_de = [
     "des Johannisbeersaftes", #1
     "der Europäischen Komission für sinnvolle Jahrestage", #2
     "der Europäischen Komission für sinnlose Jahrestage", #3
@@ -67,11 +67,11 @@ June = [
     "der Paella", #29
     "des Streichens", #30
 ]
-July = []
-August = []
-September = []
-October = []
-November = []
-December = []
+July_de = []
+August_de = []
+September_de = []
+October_de = []
+November_de = []
+December_de = []
 
-data = [ January, February, March, April, May, June, July, August, September, October, November, December]
+data_de = [January_de, February_de, March_de, April_de, May_de, June_de, July_de, August_de, September_de, October_de, November_de, December_de]
