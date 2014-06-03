@@ -49,8 +49,8 @@ def main():
     ACCESS_TOKEN_DE=os.environ["ACCESS_TOKEN"]
     ACCESS_TOKEN_SECRET_DE=os.environ["ACCESS_TOKEN_SECRET"]
 
-    de_bot = ("Heute ist der Tag ", data_de, API_KEY_DE, API_SECRET_DE,
-            ACCESS_TOKEN_DE, ACCESS_TOKEN_SECRET_DE)
+    de_bot = TwitterBot("Heute ist der Tag ", data_de, API_KEY_DE,
+            API_SECRET_DE, ACCESS_TOKEN_DE, ACCESS_TOKEN_SECRET_DE)
     de_bot.post(date.today())
 
 if __name__ == "__main__":
