@@ -2,6 +2,7 @@ language: python
 python:
 - '3.4'
 - '3.3'
+- '3.2'
 script: python tests.py
 notifications:
   email: false
