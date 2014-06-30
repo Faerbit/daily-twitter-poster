@@ -76,8 +76,8 @@ July_de=[
     "des Kullenhofes", #6
     "der deutschen Sprache", #7
     "des Patentes", #8
-    "der Füße auf den Tisch", #9
-    "der Gliedermaßstab", #10
+    "des Füße auf den Tisch legen", #9
+    "der Gliedermaßstabes", #10
     "des fliegenden Walfisches", #11
     "des Mandelkuchens", #12
     "der netten Mitbewohner", #13
@@ -93,7 +93,7 @@ July_de=[
     "der Wasserspritze", #23
     "des Küheschubsens", #24
     "des Was", #25
-    "der Kalaschnikov", #26
+    "der Kalaschnikow", #26
     "der Nacht", #27
     "der Brezel", #28
     "des Fernsehers", #29
