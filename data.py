@@ -67,7 +67,39 @@ June_de = [
     "der Paella", #29
     "des Streichens", #30
 ]
-July_de = []
+July_de=[
+    "des Vorbereitens", #1
+    "der Torte", #2
+    "der Nachbereitung", #3
+    "der Zwiebel", #4
+    "des Blutspendens", #5
+    "des Kullenhofes", #6
+    "der deutschen Sprache", #7
+    "des Patentes", #8
+    "der Füße auf den Tisch", #9
+    "der Gliedermaßstab", #10
+    "des fliegenden Walfisches", #11
+    "des Mandelkuchens", #12
+    "der netten Mitbewohner", #13
+    "der Fahrradtaschen", #14
+    "der Butter", #15
+    "des Essens", #16
+    "des Flyers", #17
+    "des Wasserverschüttens", #18
+    "des Quartetts", #19
+    "der Klobrille", #20
+    "des Jahres", #21
+    "des Frühstückes", #22
+    "der Wasserspritze", #23
+    "des Küheschubsens", #24
+    "des Was", #25
+    "der Kalaschnikov", #26
+    "der Nacht", #27
+    "der Brezel", #28
+    "des Fernsehers", #29
+    "des Kniffels", #30
+    "der Insekten", #31
+]
 August_de = []
 September_de = []
 October_de = []
